@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1250, 720]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-49,0,0,4,-29"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1250, 720]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="1250" height="720"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Certificates">
+                  <Font PropertyName="font" name="Segoe UI" size="12" style="1"/>
+                  <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="830" y="460" width="400" height="260"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="10" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="3" rowCount="10">
+                    <Column editable="true" title="Title " type="java.lang.Object"/>
+                    <Column editable="true" title="From" type="java.lang.Object"/>
+                    <Column editable="true" title="To" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="false"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="2" title="Basic Education">
+                  <Font PropertyName="font" name="Segoe UI" size="12" style="1"/>
+                  <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="50" width="1220" height="200"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="txtSecondary">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSecondaryActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="130" width="220" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Secondary:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="110" width="80" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="To"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1060" y="50" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField4ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="330" y="70" width="220" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1060" y="70" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser2">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="70" width="130" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Year Graduated:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="620" y="110" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="From"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="50" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="76">
+                    <StringItem index="0" value="2025"/>
+                    <StringItem index="1" value="2024"/>
+                    <StringItem index="2" value="2023"/>
+                    <StringItem index="3" value="2022"/>
+                    <StringItem index="4" value="2021"/>
+                    <StringItem index="5" value="2020"/>
+                    <StringItem index="6" value="2019"/>
+                    <StringItem index="7" value="2018"/>
+                    <StringItem index="8" value="2017"/>
+                    <StringItem index="9" value="2016"/>
+                    <StringItem index="10" value="2015"/>
+                    <StringItem index="11" value="2014"/>
+                    <StringItem index="12" value="2013"/>
+                    <StringItem index="13" value="2012"/>
+                    <StringItem index="14" value="2011"/>
+                    <StringItem index="15" value="2010"/>
+                    <StringItem index="16" value="2009"/>
+                    <StringItem index="17" value="2008"/>
+                    <StringItem index="18" value="2007"/>
+                    <StringItem index="19" value="2006"/>
+                    <StringItem index="20" value="2005"/>
+                    <StringItem index="21" value="2004"/>
+                    <StringItem index="22" value="2003"/>
+                    <StringItem index="23" value="2002"/>
+                    <StringItem index="24" value="2001"/>
+                    <StringItem index="25" value="2000"/>
+                    <StringItem index="26" value="1999"/>
+                    <StringItem index="27" value="1998"/>
+                    <StringItem index="28" value="1997"/>
+                    <StringItem index="29" value="1996"/>
+                    <StringItem index="30" value="1995"/>
+                    <StringItem index="31" value="1994"/>
+                    <StringItem index="32" value="1993"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1991"/>
+                    <StringItem index="35" value="1990"/>
+                    <StringItem index="36" value="1989"/>
+                    <StringItem index="37" value="1988"/>
+                    <StringItem index="38" value="1987"/>
+                    <StringItem index="39" value="1986"/>
+                    <StringItem index="40" value="1985"/>
+                    <StringItem index="41" value="1984"/>
+                    <StringItem index="42" value="1983"/>
+                    <StringItem index="43" value="1982"/>
+                    <StringItem index="44" value="1981"/>
+                    <StringItem index="45" value="1980"/>
+                    <StringItem index="46" value="1979"/>
+                    <StringItem index="47" value="1978"/>
+                    <StringItem index="48" value="1977"/>
+                    <StringItem index="49" value="1976"/>
+                    <StringItem index="50" value="1975"/>
+                    <StringItem index="51" value="1974"/>
+                    <StringItem index="52" value="1973"/>
+                    <StringItem index="53" value="1972"/>
+                    <StringItem index="54" value="1971"/>
+                    <StringItem index="55" value="1970"/>
+                    <StringItem index="56" value="1969"/>
+                    <StringItem index="57" value="1968"/>
+                    <StringItem index="58" value="1967"/>
+                    <StringItem index="59" value="1966"/>
+                    <StringItem index="60" value="1965"/>
+                    <StringItem index="61" value="1964"/>
+                    <StringItem index="62" value="1963"/>
+                    <StringItem index="63" value="1962"/>
+                    <StringItem index="64" value="1961"/>
+                    <StringItem index="65" value="1960"/>
+                    <StringItem index="66" value="1959"/>
+                    <StringItem index="67" value="1958"/>
+                    <StringItem index="68" value="1957"/>
+                    <StringItem index="69" value="1956"/>
+                    <StringItem index="70" value="1955"/>
+                    <StringItem index="71" value="1954"/>
+                    <StringItem index="72" value="1953"/>
+                    <StringItem index="73" value="1952"/>
+                    <StringItem index="74" value="1951"/>
+                    <StringItem index="75" value="1950"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="620" y="130" width="170" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="76">
+                    <StringItem index="0" value="2025"/>
+                    <StringItem index="1" value="2024"/>
+                    <StringItem index="2" value="2023"/>
+                    <StringItem index="3" value="2022"/>
+                    <StringItem index="4" value="2021"/>
+                    <StringItem index="5" value="2020"/>
+                    <StringItem index="6" value="2019"/>
+                    <StringItem index="7" value="2018"/>
+                    <StringItem index="8" value="2017"/>
+                    <StringItem index="9" value="2016"/>
+                    <StringItem index="10" value="2015"/>
+                    <StringItem index="11" value="2014"/>
+                    <StringItem index="12" value="2013"/>
+                    <StringItem index="13" value="2012"/>
+                    <StringItem index="14" value="2011"/>
+                    <StringItem index="15" value="2010"/>
+                    <StringItem index="16" value="2009"/>
+                    <StringItem index="17" value="2008"/>
+                    <StringItem index="18" value="2007"/>
+                    <StringItem index="19" value="2006"/>
+                    <StringItem index="20" value="2005"/>
+                    <StringItem index="21" value="2004"/>
+                    <StringItem index="22" value="2003"/>
+                    <StringItem index="23" value="2002"/>
+                    <StringItem index="24" value="2001"/>
+                    <StringItem index="25" value="2000"/>
+                    <StringItem index="26" value="1999"/>
+                    <StringItem index="27" value="1998"/>
+                    <StringItem index="28" value="1997"/>
+                    <StringItem index="29" value="1996"/>
+                    <StringItem index="30" value="1995"/>
+                    <StringItem index="31" value="1994"/>
+                    <StringItem index="32" value="1993"/>
+                    <StringItem index="33" value="1992"/>
+                    <StringItem index="34" value="1991"/>
+                    <StringItem index="35" value="1990"/>
+                    <StringItem index="36" value="1989"/>
+                    <StringItem index="37" value="1988"/>
+                    <StringItem index="38" value="1987"/>
+                    <StringItem index="39" value="1986"/>
+                    <StringItem index="40" value="1985"/>
+                    <StringItem index="41" value="1984"/>
+                    <StringItem index="42" value="1983"/>
+                    <StringItem index="43" value="1982"/>
+                    <StringItem index="44" value="1981"/>
+                    <StringItem index="45" value="1980"/>
+                    <StringItem index="46" value="1979"/>
+                    <StringItem index="47" value="1978"/>
+                    <StringItem index="48" value="1977"/>
+                    <StringItem index="49" value="1976"/>
+                    <StringItem index="50" value="1975"/>
+                    <StringItem index="51" value="1974"/>
+                    <StringItem index="52" value="1973"/>
+                    <StringItem index="53" value="1972"/>
+                    <StringItem index="54" value="1971"/>
+                    <StringItem index="55" value="1970"/>
+                    <StringItem index="56" value="1969"/>
+                    <StringItem index="57" value="1968"/>
+                    <StringItem index="58" value="1967"/>
+                    <StringItem index="59" value="1966"/>
+                    <StringItem index="60" value="1965"/>
+                    <StringItem index="61" value="1964"/>
+                    <StringItem index="62" value="1963"/>
+                    <StringItem index="63" value="1962"/>
+                    <StringItem index="64" value="1961"/>
+                    <StringItem index="65" value="1960"/>
+                    <StringItem index="66" value="1959"/>
+                    <StringItem index="67" value="1958"/>
+                    <StringItem index="68" value="1957"/>
+                    <StringItem index="69" value="1956"/>
+                    <StringItem index="70" value="1955"/>
+                    <StringItem index="71" value="1954"/>
+                    <StringItem index="72" value="1953"/>
+                    <StringItem index="73" value="1952"/>
+                    <StringItem index="74" value="1951"/>
+                    <StringItem index="75" value="1950"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="620" y="70" width="170" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Year Graduated:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="620" y="50" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="To"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1060" y="110" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser3">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1060" y="130" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser10">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="130" width="130" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="From"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="110" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Elementary:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="50" width="90" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Institution Type:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="330" y="50" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtElementary">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtElementaryActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="70" width="220" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField6ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="330" y="130" width="220" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Institution Type:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="330" y="110" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Masteral">
+                  <Font PropertyName="font" name="Segoe UI" size="12" style="1"/>
+                  <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="460" width="400" height="260"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="10" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="10">
+                    <Column editable="false" title="Title " type="java.lang.Object"/>
+                    <Column editable="false" title="School" type="java.lang.Object"/>
+                    <Column editable="false" title="From" type="java.lang.Object"/>
+                    <Column editable="false" title="To" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="false"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Doctoral">
+                  <Font PropertyName="font" name="Segoe UI" size="12" style="1"/>
+                  <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="460" width="400" height="260"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="10" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="10">
+                    <Column editable="false" title="Title " type="java.lang.Object"/>
+                    <Column editable="false" title="School" type="java.lang.Object"/>
+                    <Column editable="false" title="From" type="java.lang.Object"/>
+                    <Column editable="false" title="To" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="false"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="2" title="Higher Education">
+                  <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder roundedCorners="true"/>
+                  </Border>
+                  <Font PropertyName="font" name="Segoe UI" size="12" style="1"/>
+                  <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="250" width="1220" height="210"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Certificates (TESDA NC)"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="150" width="170" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Masteral:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="30" width="90" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Expiry Date:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="770" y="140" width="90" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="9">
+                    <StringItem index="0" value="N/A"/>
+                    <StringItem index="1" value="NC I"/>
+                    <StringItem index="2" value="NC II"/>
+                    <StringItem index="3" value="NC III"/>
+                    <StringItem index="4" value="NC IV"/>
+                    <StringItem index="5" value="NC V"/>
+                    <StringItem index="6" value="NC VI"/>
+                    <StringItem index="7" value="NC VII"/>
+                    <StringItem index="8" value="NC VIII"/>
+                  </StringArray>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.CompoundBorderInfo">
+                    <CompoundBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="170" width="280" height="20"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser5">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="670" y="50" width="130" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="To:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="30" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser4">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="50" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="School:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="90" width="50" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser6">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="670" y="110" width="130" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="To:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="90" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser7">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="110" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="From:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="670" y="90" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Doctoral:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="90" width="80" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="147">
+                    <StringItem index="0" value="Master of Accountancy"/>
+                    <StringItem index="1" value="Master of Advanced Study"/>
+                    <StringItem index="2" value="Master of Agricultural Economics"/>
+                    <StringItem index="3" value="Master of Applied Finance"/>
+                    <StringItem index="4" value="Master of Applied Science"/>
+                    <StringItem index="5" value="Master of Architecture"/>
+                    <StringItem index="6" value="Master of Arts"/>
+                    <StringItem index="7" value="Master of Arts in Liberal Studies"/>
+                    <StringItem index="8" value="Master of Arts in Special Education"/>
+                    <StringItem index="9" value="Master of Arts in Teaching"/>
+                    <StringItem index="10" value="Master of Bioethics"/>
+                    <StringItem index="11" value="Master of Botany"/>
+                    <StringItem index="12" value="Master of Business Administration"/>
+                    <StringItem index="13" value="Master of Business, Entrepreneurship and Technology"/>
+                    <StringItem index="14" value="Master of Business"/>
+                    <StringItem index="15" value="Master of Business Engineering"/>
+                    <StringItem index="16" value="Master of Business Informatics"/>
+                    <StringItem index="17" value="Master of Chemistry"/>
+                    <StringItem index="18" value="Master of Christian Education"/>
+                    <StringItem index="19" value="Master of City Planning"/>
+                    <StringItem index="20" value="Master of Commerce"/>
+                    <StringItem index="21" value="Master of Computational Finance"/>
+                    <StringItem index="22" value="Master of Computer Applications"/>
+                    <StringItem index="23" value="Master of Computer Science"/>
+                    <StringItem index="24" value="Master of Counselling"/>
+                    <StringItem index="25" value="Master of Criminal Justice"/>
+                    <StringItem index="26" value="Master of Creative Technologies"/>
+                    <StringItem index="27" value="Master of Data Science"/>
+                    <StringItem index="28" value="Master of Defence Administration"/>
+                    <StringItem index="29" value="Master of Defence Studies"/>
+                    <StringItem index="30" value="Master of Design"/>
+                    <StringItem index="31" value="Masters of Development Economics"/>
+                    <StringItem index="32" value="Master of Divinity"/>
+                    <StringItem index="33" value="Master of Economics"/>
+                    <StringItem index="34" value="Master of Education"/>
+                    <StringItem index="35" value="Master of Engineering"/>
+                    <StringItem index="36" value="Master of Engineering Management"/>
+                    <StringItem index="37" value="Master of Applied Science"/>
+                    <StringItem index="38" value="Master of Enterprise"/>
+                    <StringItem index="39" value="Master of European Law"/>
+                    <StringItem index="40" value="Master of Finance"/>
+                    <StringItem index="41" value="Master of Financial Economics"/>
+                    <StringItem index="42" value="Master of Financial Engineering"/>
+                    <StringItem index="43" value="Master of Financial Mathematics"/>
+                    <StringItem index="44" value="Master of Fine Arts"/>
+                    <StringItem index="45" value="Master of Health Administration"/>
+                    <StringItem index="46" value="Master of Health Economics"/>
+                    <StringItem index="47" value="Master of Health Science"/>
+                    <StringItem index="48" value="Master of Humanities"/>
+                    <StringItem index="49" value="Master of Industrial and Labor Relations"/>
+                    <StringItem index="50" value="Master of International Affairs"/>
+                    <StringItem index="51" value="Master of International Business"/>
+                    <StringItem index="52" value="Master of International Economics"/>
+                    <StringItem index="53" value="Master of International Studies"/>
+                    <StringItem index="54" value="Master of Information and Cybersecurity"/>
+                    <StringItem index="55" value="Master of Information and Data Science"/>
+                    <StringItem index="56" value="Master of Information Management"/>
+                    <StringItem index="57" value="Master of Information System Management"/>
+                    <StringItem index="58" value="Master of Journalism"/>
+                    <StringItem index="59" value="Master of Jurisprudence"/>
+                    <StringItem index="60" value="Master of Laws"/>
+                    <StringItem index="61" value="Master of Mass Communication"/>
+                    <StringItem index="62" value="Master of Studies in Law"/>
+                    <StringItem index="63" value="Master of Landscape Architecture"/>
+                    <StringItem index="64" value="Master of Letters"/>
+                    <StringItem index="65" value="Master of Liberal Arts"/>
+                    <StringItem index="66" value="Master of Liberal Arts in Extension Studies"/>
+                    <StringItem index="67" value="Master of Library and Information Science[1]"/>
+                    <StringItem index="68" value="Master of Management"/>
+                    <StringItem index="69" value="Master of Management of Innovation"/>
+                    <StringItem index="70" value="Master of Marketing Research"/>
+                    <StringItem index="71" value="Master of Mathematical Finance"/>
+                    <StringItem index="72" value="Master of Mathematics"/>
+                    <StringItem index="73" value="Master of Medical Science"/>
+                    <StringItem index="74" value="Master of Medicine"/>
+                    <StringItem index="75" value="Master of Military Art and Science"/>
+                    <StringItem index="76" value="Master of Military Operational Art and Science"/>
+                    <StringItem index="77" value="Master of Ministry"/>
+                    <StringItem index="78" value="Master of Music"/>
+                    <StringItem index="79" value="Master of Music Education"/>
+                    <StringItem index="80" value="Master of Natural Resources"/>
+                    <StringItem index="81" value="Master of Occupational Behaviour and Development"/>
+                    <StringItem index="82" value="Master of Occupational Therapy"/>
+                    <StringItem index="83" value="Master of Pharmacy"/>
+                    <StringItem index="84" value="Master of Philosophy"/>
+                    <StringItem index="85" value="Master of Physician Assistant Studies"/>
+                    <StringItem index="86" value="Master of Physics"/>
+                    <StringItem index="87" value="Master of Plant Biology"/>
+                    <StringItem index="88" value="Master of Plant Breeding"/>
+                    <StringItem index="89" value="Master of Political Science"/>
+                    <StringItem index="90" value="Master of Professional Studies"/>
+                    <StringItem index="91" value="Master of Psychology"/>
+                    <StringItem index="92" value="Master of Public Administration"/>
+                    <StringItem index="93" value="Master of Public Affairs"/>
+                    <StringItem index="94" value="Master of Public Health"/>
+                    <StringItem index="95" value="Master of Public Management"/>
+                    <StringItem index="96" value="Master of Public Policy"/>
+                    <StringItem index="97" value="Master of Public Relations"/>
+                    <StringItem index="98" value="Master of Public Service"/>
+                    <StringItem index="99" value="Master of Quantitative Finance"/>
+                    <StringItem index="100" value="Master of Rabbinic Studies"/>
+                    <StringItem index="101" value="Master of Real Estate Development"/>
+                    <StringItem index="102" value="Master of Religious Education"/>
+                    <StringItem index="103" value="Master of Research"/>
+                    <StringItem index="104" value="Master of Sacred Music"/>
+                    <StringItem index="105" value="Master of Sacred Theology"/>
+                    <StringItem index="106" value="Master of Science in Administration"/>
+                    <StringItem index="107" value="Master of Science in Archaeology"/>
+                    <StringItem index="108" value="Master of Science in Biblical Archaeology"/>
+                    <StringItem index="109" value="Master of Science in Bioinformatics"/>
+                    <StringItem index="110" value="Master of Science in Cardiovascular Perfusion"/>
+                    <StringItem index="111" value="Master of Science in Computer Science"/>
+                    <StringItem index="112" value="Master of Science in Counselling"/>
+                    <StringItem index="113" value="Master of Science in Cyber Security"/>
+                    <StringItem index="114" value="Master of Science in Engineering"/>
+                    <StringItem index="115" value="Master of Science in Development Administration"/>
+                    <StringItem index="116" value="Master of Science in Finance"/>
+                    <StringItem index="117" value="Master of Science in Foreign Service"/>
+                    <StringItem index="118" value="Master of Science in Health Informatics"/>
+                    <StringItem index="119" value="Master of Science in Human Resource Development"/>
+                    <StringItem index="120" value="Master of Science in Information Assurance"/>
+                    <StringItem index="121" value="Master of Science in Information Systems"/>
+                    <StringItem index="122" value="Master of Science in Information Technology"/>
+                    <StringItem index="123" value="Master of Science in Leadership"/>
+                    <StringItem index="124" value="Master of Science in Management"/>
+                    <StringItem index="125" value="Master of Science in Medical Laboratory Sciences (MS MLS)"/>
+                    <StringItem index="126" value="Master of Science in Nursing"/>
+                    <StringItem index="127" value="Master of Science in Plant Pathology"/>
+                    <StringItem index="128" value="Master of Science in Project Management"/>
+                    <StringItem index="129" value="Master of Science in Radiologist Assistant (MSRS)"/>
+                    <StringItem index="130" value="Master of Science in Supply Chain Management"/>
+                    <StringItem index="131" value="Master of Science in Teaching"/>
+                    <StringItem index="132" value="Master of Science in Taxation"/>
+                    <StringItem index="133" value="Master of Science in Yoga Therapy"/>
+                    <StringItem index="134" value="Master of Social Science"/>
+                    <StringItem index="135" value="Master of Social Work"/>
+                    <StringItem index="136" value="Master of Strategic Studies"/>
+                    <StringItem index="137" value="Master of Studies"/>
+                    <StringItem index="138" value="Master of Surgery"/>
+                    <StringItem index="139" value="Master of Talmudic Law"/>
+                    <StringItem index="140" value="Master of Taxation"/>
+                    <StringItem index="141" value="Master of Theological Studies"/>
+                    <StringItem index="142" value="Master of Technology"/>
+                    <StringItem index="143" value="Master of Technology Management"/>
+                    <StringItem index="144" value="Master of Theology"/>
+                    <StringItem index="145" value="Master of Urban Planning"/>
+                    <StringItem index="146" value="Master of Veterinary Science"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="50" width="280" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="38">
+                    <StringItem index="0" value="N/A"/>
+                    <StringItem index="1" value="Doctor of Medicine (M.D.)"/>
+                    <StringItem index="2" value="Juris Doctor (J.D.)"/>
+                    <StringItem index="3" value="Doctor of Civil Law (D.C.L.)"/>
+                    <StringItem index="4" value="Doctor of Philosophy in Chemical Engineering"/>
+                    <StringItem index="5" value="Doctor of Philosophy in Civil Engineering"/>
+                    <StringItem index="6" value="Doctor of Philosophy in Electronics and Communications Engineering"/>
+                    <StringItem index="7" value="Doctor of Philosophy in Industrial Engineering"/>
+                    <StringItem index="8" value="Doctor of Philosophy in Mechanical Engineering"/>
+                    <StringItem index="9" value="Doctor of Philosophy in Organization Development and Planning"/>
+                    <StringItem index="10" value="Doctor of Philosophy in Human Resource Development"/>
+                    <StringItem index="11" value="Doctor of Philosophy in Development Communication"/>
+                    <StringItem index="12" value="Doctor of Philosophy in Mathematics"/>
+                    <StringItem index="13" value="Doctor of Philosophy in Chemistry"/>
+                    <StringItem index="14" value="Doctor of Philosophy in Biology"/>
+                    <StringItem index="15" value="Doctor of Philosophy in Physics"/>
+                    <StringItem index="16" value="Doctor of Philosophy in Mechanical Engineering"/>
+                    <StringItem index="17" value="Doctor of Philosophy in Electronics Engineering"/>
+                    <StringItem index="18" value="Doctor of Philosophy in Teacher Education"/>
+                    <StringItem index="19" value="Doctor of Philosophy in Development Education"/>
+                    <StringItem index="20" value="Doctor of Philosophy in Science Education"/>
+                    <StringItem index="21" value="Doctor of Philosophy in Educational Management"/>
+                    <StringItem index="22" value="Doctor of Philosophy in Management"/>
+                    <StringItem index="23" value="Doctor of Philosophy in Holistic Child Development"/>
+                    <StringItem index="24" value="Doctor of Philosophy in Transformational Learning"/>
+                    <StringItem index="25" value="Doctor of Philosophy in Transformational Development"/>
+                    <StringItem index="26" value="Doctor of Philosophy in Education"/>
+                    <StringItem index="27" value="Doctor of Philosophy in Agriculture"/>
+                    <StringItem index="28" value="Doctor of Philosophy in Business Administration"/>
+                    <StringItem index="29" value="Doctor of Philosophy in Engineering"/>
+                    <StringItem index="30" value="Doctor of Philosophy in Public Administration"/>
+                    <StringItem index="31" value="Doctor of Public Management (DPM)"/>
+                    <StringItem index="32" value="Doctor of Business Management (DBM)"/>
+                    <StringItem index="33" value="Doctor of Education (Ed.D.) in:"/>
+                    <StringItem index="34" value="Doctor of Education in Educational Management"/>
+                    <StringItem index="35" value="Doctor of Ministry (D.Min.) in Transformational Ministry"/>
+                    <StringItem index="36" value="Doctor of Public Administration (DPA)"/>
+                    <StringItem index="37" value="Doctor in Business Administration"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="110" width="280" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser8">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="670" y="170" width="130" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="To:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="150" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser9">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="860" y="170" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="From:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="670" y="150" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox4">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="71">
+                    <StringItem index="0" value="N/A"/>
+                    <StringItem index="1" value="Adamson University"/>
+                    <StringItem index="2" value="Asia Pacific College"/>
+                    <StringItem index="3" value="Ateneo de Manila University"/>
+                    <StringItem index="4" value="Centro Escolar University (Manila and Makati campuses)"/>
+                    <StringItem index="5" value="De La Salle University"/>
+                    <StringItem index="6" value="De La Salle-College of Saint Benilde"/>
+                    <StringItem index="7" value="Emilio Aguinaldo College - Manila"/>
+                    <StringItem index="8" value="Far Eastern University"/>
+                    <StringItem index="9" value="Far Eastern University - Dr. Nicanor Reyes Medical Foundation"/>
+                    <StringItem index="10" value="Far Eastern University Institute of Technology"/>
+                    <StringItem index="11" value="Jos&#xe9; Rizal University"/>
+                    <StringItem index="12" value="Lyceum of the Philippines University"/>
+                    <StringItem index="13" value="Manila Central University"/>
+                    <StringItem index="14" value="Map&#xfa;a University"/>
+                    <StringItem index="15" value="Miriam College"/>
+                    <StringItem index="16" value="National University"/>
+                    <StringItem index="17" value="Our Lady of Fatima University (Valenzuela and Quezon City campuses)"/>
+                    <StringItem index="18" value="Southeast Asia Interdisciplinary Development Institute (SAIDI)"/>
+                    <StringItem index="19" value="Southville International School and Colleges"/>
+                    <StringItem index="20" value="St. Paul University Manila"/>
+                    <StringItem index="21" value="Technological Institute of the Philippines (Manila and Quezon City campuses)"/>
+                    <StringItem index="22" value="Trinity University of Asia"/>
+                    <StringItem index="23" value="University of Asia and the Pacific"/>
+                    <StringItem index="24" value="University of Perpetual Help System DALTA - Las Pi&#xf1;as"/>
+                    <StringItem index="25" value="University of Santo Tomas"/>
+                    <StringItem index="26" value="University of the East"/>
+                    <StringItem index="27" value="Panpacific University"/>
+                    <StringItem index="28" value="Saint Louis College La Union"/>
+                    <StringItem index="29" value="Saint Mary&apos;s University"/>
+                    <StringItem index="30" value="St. Paul University Philippines"/>
+                    <StringItem index="31" value="Saint Louis University"/>
+                    <StringItem index="32" value="University of Baguio"/>
+                    <StringItem index="33" value="University of the Cordilleras"/>
+                    <StringItem index="34" value="Angeles University Foundation"/>
+                    <StringItem index="35" value="Baliuag University"/>
+                    <StringItem index="36" value="Centro Escolar University (Malolos Campus)"/>
+                    <StringItem index="37" value="First City Providential College"/>
+                    <StringItem index="38" value="Holy Angel University"/>
+                    <StringItem index="39" value="La Consolacion University Philippines"/>
+                    <StringItem index="40" value="Wesleyan University Philippines"/>
+                    <StringItem index="41" value="Adventist University of the Philippines"/>
+                    <StringItem index="42" value="Colegio de San Juan de Letran (Calamba)"/>
+                    <StringItem index="43" value="Lyceum of the Philippines University (Laguna, Batangas, and Cavite campuses)"/>
+                    <StringItem index="44" value="Manuel S. Enverga University Foundation"/>
+                    <StringItem index="45" value="Map&#xfa;a Malayan Colleges Laguna"/>
+                    <StringItem index="46" value="Our Lady of Fatima University - Antipolo Campus"/>
+                    <StringItem index="47" value="Saint Michael&apos;s College of Laguna"/>
+                    <StringItem index="48" value="St. Dominic College of Asia"/>
+                    <StringItem index="49" value="University of Batangas"/>
+                    <StringItem index="50" value="University of Perpetual Help System Laguna"/>
+                    <StringItem index="51" value="Ateneo de Naga University"/>
+                    <StringItem index="52" value="Central Philippine University"/>
+                    <StringItem index="53" value="John B. Lacson Colleges Foundation - Bacolod"/>
+                    <StringItem index="54" value="John B. Lacson Foundation Maritime University (Arevalo and Molo campuses)"/>
+                    <StringItem index="55" value="STI West Negros University"/>
+                    <StringItem index="56" value="University of St. La Salle"/>
+                    <StringItem index="57" value="Cebu Institute of Technology - University"/>
+                    <StringItem index="58" value="Silliman University"/>
+                    <StringItem index="59" value="University of San Carlos"/>
+                    <StringItem index="60" value="University of San Jose-Recoletos"/>
+                    <StringItem index="61" value="University of the Visayas - Main"/>
+                    <StringItem index="62" value="Capitol University"/>
+                    <StringItem index="63" value="Misamis University"/>
+                    <StringItem index="64" value="Xavier University - Ateneo de Cagayan"/>
+                    <StringItem index="65" value="Ateneo de Davao University"/>
+                    <StringItem index="66" value="Cor Jesu College"/>
+                    <StringItem index="67" value="University of Mindanao (Main, Tagum, and Digos campuses)"/>
+                    <StringItem index="68" value="University of the Immaculate Conception"/>
+                    <StringItem index="69" value="Notre Dame of Dadiangas University"/>
+                    <StringItem index="70" value="Notre Dame of Marbel University"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="110" width="190" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox5">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="71">
+                    <StringItem index="0" value="N/A"/>
+                    <StringItem index="1" value="Adamson University"/>
+                    <StringItem index="2" value="Asia Pacific College"/>
+                    <StringItem index="3" value="Ateneo de Manila University"/>
+                    <StringItem index="4" value="Centro Escolar University (Manila and Makati campuses)"/>
+                    <StringItem index="5" value="De La Salle University"/>
+                    <StringItem index="6" value="De La Salle-College of Saint Benilde"/>
+                    <StringItem index="7" value="Emilio Aguinaldo College - Manila"/>
+                    <StringItem index="8" value="Far Eastern University"/>
+                    <StringItem index="9" value="Far Eastern University - Dr. Nicanor Reyes Medical Foundation"/>
+                    <StringItem index="10" value="Far Eastern University Institute of Technology"/>
+                    <StringItem index="11" value="Jos&#xe9; Rizal University"/>
+                    <StringItem index="12" value="Lyceum of the Philippines University"/>
+                    <StringItem index="13" value="Manila Central University"/>
+                    <StringItem index="14" value="Map&#xfa;a University"/>
+                    <StringItem index="15" value="Miriam College"/>
+                    <StringItem index="16" value="National University"/>
+                    <StringItem index="17" value="Our Lady of Fatima University (Valenzuela and Quezon City campuses)"/>
+                    <StringItem index="18" value="Southeast Asia Interdisciplinary Development Institute (SAIDI)"/>
+                    <StringItem index="19" value="Southville International School and Colleges"/>
+                    <StringItem index="20" value="St. Paul University Manila"/>
+                    <StringItem index="21" value="Technological Institute of the Philippines (Manila and Quezon City campuses)"/>
+                    <StringItem index="22" value="Trinity University of Asia"/>
+                    <StringItem index="23" value="University of Asia and the Pacific"/>
+                    <StringItem index="24" value="University of Perpetual Help System DALTA - Las Pi&#xf1;as"/>
+                    <StringItem index="25" value="University of Santo Tomas"/>
+                    <StringItem index="26" value="University of the East"/>
+                    <StringItem index="27" value="Panpacific University"/>
+                    <StringItem index="28" value="Saint Louis College La Union"/>
+                    <StringItem index="29" value="Saint Mary&apos;s University"/>
+                    <StringItem index="30" value="St. Paul University Philippines"/>
+                    <StringItem index="31" value="Saint Louis University"/>
+                    <StringItem index="32" value="University of Baguio"/>
+                    <StringItem index="33" value="University of the Cordilleras"/>
+                    <StringItem index="34" value="Angeles University Foundation"/>
+                    <StringItem index="35" value="Baliuag University"/>
+                    <StringItem index="36" value="Centro Escolar University (Malolos Campus)"/>
+                    <StringItem index="37" value="First City Providential College"/>
+                    <StringItem index="38" value="Holy Angel University"/>
+                    <StringItem index="39" value="La Consolacion University Philippines"/>
+                    <StringItem index="40" value="Wesleyan University Philippines"/>
+                    <StringItem index="41" value="Adventist University of the Philippines"/>
+                    <StringItem index="42" value="Colegio de San Juan de Letran (Calamba)"/>
+                    <StringItem index="43" value="Lyceum of the Philippines University (Laguna, Batangas, and Cavite campuses)"/>
+                    <StringItem index="44" value="Manuel S. Enverga University Foundation"/>
+                    <StringItem index="45" value="Map&#xfa;a Malayan Colleges Laguna"/>
+                    <StringItem index="46" value="Our Lady of Fatima University - Antipolo Campus"/>
+                    <StringItem index="47" value="Saint Michael&apos;s College of Laguna"/>
+                    <StringItem index="48" value="St. Dominic College of Asia"/>
+                    <StringItem index="49" value="University of Batangas"/>
+                    <StringItem index="50" value="University of Perpetual Help System Laguna"/>
+                    <StringItem index="51" value="Ateneo de Naga University"/>
+                    <StringItem index="52" value="Central Philippine University"/>
+                    <StringItem index="53" value="John B. Lacson Colleges Foundation - Bacolod"/>
+                    <StringItem index="54" value="John B. Lacson Foundation Maritime University (Arevalo and Molo campuses)"/>
+                    <StringItem index="55" value="STI West Negros University"/>
+                    <StringItem index="56" value="University of St. La Salle"/>
+                    <StringItem index="57" value="Cebu Institute of Technology - University"/>
+                    <StringItem index="58" value="Silliman University"/>
+                    <StringItem index="59" value="University of San Carlos"/>
+                    <StringItem index="60" value="University of San Jose-Recoletos"/>
+                    <StringItem index="61" value="University of the Visayas - Main"/>
+                    <StringItem index="62" value="Capitol University"/>
+                    <StringItem index="63" value="Misamis University"/>
+                    <StringItem index="64" value="Xavier University - Ateneo de Cagayan"/>
+                    <StringItem index="65" value="Ateneo de Davao University"/>
+                    <StringItem index="66" value="Cor Jesu College"/>
+                    <StringItem index="67" value="University of Mindanao (Main, Tagum, and Digos campuses)"/>
+                    <StringItem index="68" value="University of the Immaculate Conception"/>
+                    <StringItem index="69" value="Notre Dame of Dadiangas University"/>
+                    <StringItem index="70" value="Notre Dame of Marbel University"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox5ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="50" width="190" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1040" y="170" width="70" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnProcess">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProcessActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1040" y="50" width="70" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="1040" y="110" width="70" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="From:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="670" y="30" width="40" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="School:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="30" width="50" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Year Graduated:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="790" y="10" width="120" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="School:"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="150" width="50" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBox8">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="71">
+                    <StringItem index="0" value="N/A"/>
+                    <StringItem index="1" value="Adamson University"/>
+                    <StringItem index="2" value="Asia Pacific College"/>
+                    <StringItem index="3" value="Ateneo de Manila University"/>
+                    <StringItem index="4" value="Centro Escolar University (Manila and Makati campuses)"/>
+                    <StringItem index="5" value="De La Salle University"/>
+                    <StringItem index="6" value="De La Salle-College of Saint Benilde"/>
+                    <StringItem index="7" value="Emilio Aguinaldo College - Manila"/>
+                    <StringItem index="8" value="Far Eastern University"/>
+                    <StringItem index="9" value="Far Eastern University - Dr. Nicanor Reyes Medical Foundation"/>
+                    <StringItem index="10" value="Far Eastern University Institute of Technology"/>
+                    <StringItem index="11" value="Jos&#xe9; Rizal University"/>
+                    <StringItem index="12" value="Lyceum of the Philippines University"/>
+                    <StringItem index="13" value="Manila Central University"/>
+                    <StringItem index="14" value="Map&#xfa;a University"/>
+                    <StringItem index="15" value="Miriam College"/>
+                    <StringItem index="16" value="National University"/>
+                    <StringItem index="17" value="Our Lady of Fatima University (Valenzuela and Quezon City campuses)"/>
+                    <StringItem index="18" value="Southeast Asia Interdisciplinary Development Institute (SAIDI)"/>
+                    <StringItem index="19" value="Southville International School and Colleges"/>
+                    <StringItem index="20" value="St. Paul University Manila"/>
+                    <StringItem index="21" value="Technological Institute of the Philippines (Manila and Quezon City campuses)"/>
+                    <StringItem index="22" value="Trinity University of Asia"/>
+                    <StringItem index="23" value="University of Asia and the Pacific"/>
+                    <StringItem index="24" value="University of Perpetual Help System DALTA - Las Pi&#xf1;as"/>
+                    <StringItem index="25" value="University of Santo Tomas"/>
+                    <StringItem index="26" value="University of the East"/>
+                    <StringItem index="27" value="Panpacific University"/>
+                    <StringItem index="28" value="Saint Louis College La Union"/>
+                    <StringItem index="29" value="Saint Mary&apos;s University"/>
+                    <StringItem index="30" value="St. Paul University Philippines"/>
+                    <StringItem index="31" value="Saint Louis University"/>
+                    <StringItem index="32" value="University of Baguio"/>
+                    <StringItem index="33" value="University of the Cordilleras"/>
+                    <StringItem index="34" value="Angeles University Foundation"/>
+                    <StringItem index="35" value="Baliuag University"/>
+                    <StringItem index="36" value="Centro Escolar University (Malolos Campus)"/>
+                    <StringItem index="37" value="First City Providential College"/>
+                    <StringItem index="38" value="Holy Angel University"/>
+                    <StringItem index="39" value="La Consolacion University Philippines"/>
+                    <StringItem index="40" value="Wesleyan University Philippines"/>
+                    <StringItem index="41" value="Adventist University of the Philippines"/>
+                    <StringItem index="42" value="Colegio de San Juan de Letran (Calamba)"/>
+                    <StringItem index="43" value="Lyceum of the Philippines University (Laguna, Batangas, and Cavite campuses)"/>
+                    <StringItem index="44" value="Manuel S. Enverga University Foundation"/>
+                    <StringItem index="45" value="Map&#xfa;a Malayan Colleges Laguna"/>
+                    <StringItem index="46" value="Our Lady of Fatima University - Antipolo Campus"/>
+                    <StringItem index="47" value="Saint Michael&apos;s College of Laguna"/>
+                    <StringItem index="48" value="St. Dominic College of Asia"/>
+                    <StringItem index="49" value="University of Batangas"/>
+                    <StringItem index="50" value="University of Perpetual Help System Laguna"/>
+                    <StringItem index="51" value="Ateneo de Naga University"/>
+                    <StringItem index="52" value="Central Philippine University"/>
+                    <StringItem index="53" value="John B. Lacson Colleges Foundation - Bacolod"/>
+                    <StringItem index="54" value="John B. Lacson Foundation Maritime University (Arevalo and Molo campuses)"/>
+                    <StringItem index="55" value="STI West Negros University"/>
+                    <StringItem index="56" value="University of St. La Salle"/>
+                    <StringItem index="57" value="Cebu Institute of Technology - University"/>
+                    <StringItem index="58" value="Silliman University"/>
+                    <StringItem index="59" value="University of San Carlos"/>
+                    <StringItem index="60" value="University of San Jose-Recoletos"/>
+                    <StringItem index="61" value="University of the Visayas - Main"/>
+                    <StringItem index="62" value="Capitol University"/>
+                    <StringItem index="63" value="Misamis University"/>
+                    <StringItem index="64" value="Xavier University - Ateneo de Cagayan"/>
+                    <StringItem index="65" value="Ateneo de Davao University"/>
+                    <StringItem index="66" value="Cor Jesu College"/>
+                    <StringItem index="67" value="University of Mindanao (Main, Tagum, and Digos campuses)"/>
+                    <StringItem index="68" value="University of the Immaculate Conception"/>
+                    <StringItem index="69" value="Notre Dame of Dadiangas University"/>
+                    <StringItem index="70" value="Notre Dame of Marbel University"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="400" y="170" width="190" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Educational Background"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="0" width="420" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
